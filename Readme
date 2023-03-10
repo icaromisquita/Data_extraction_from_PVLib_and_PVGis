@@ -23,7 +23,7 @@ A notebook describing how to extract data from PVLib and PVGis. The data is rele
 Python
 Pandas
 Matplotlib
-Google Colab
+Google Colab AND Jupyter Notebook
 Requests (API)
 NumPy
 PVLib
