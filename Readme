@@ -29,10 +29,8 @@ NumPy
 PVLib
 PVGis
 
-
 🔸 Project Description The data used was provided by WBS-Coding School.
 
 🔸 Main goals of the project:
 
-Build different recommender-systems.
-Deploy said recommender-systems on a web-app using Streamlit.
+Automatize the data extraction using the PVLib and PVGis app.
