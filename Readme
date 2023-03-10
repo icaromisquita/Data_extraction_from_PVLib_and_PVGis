@@ -1,1 +1,38 @@
-This notebook describes how to extract and download data from PVLib and PVGis.
+⚙ Extracting data from PVLib and PVGis
+
+🔸 Project Intro/Objective
+
+A notebook describing how to extract data from PVLib and PVGis. The data is relevant for PV aplications, for example some of the parameters are:  
+
+* zenith - The zenith angle is the angle between the sun and the vertical. The zenith angle is similar to the elevation angle but it is measured from the vertical rather than from the horizontal, thus making the zenith angle = 90° - elevation.
+*  elevation - The maximum height of the sun in the sky at a particular time of year. This maximum elevation angle occurs at solar noon and depends on the latitude and declination angle.
+*  azimuth - The azimuth angle is the compass direction from which the sunlight is coming. At solar noon, the sun is always directly south in the northern hemisphere and directly north in the southern hemisphere.
+*  P - Nominal power of PV system in KWh
+*  poa_direct  - Beam (direct) irradiance on inclined plane (W/m²). It is used to describe solar radiation traveling in a straight line from the sun down to the surface of the earth. 
+*  poa_sky_diffuse - Diffuse irradiance on inclined plane (W/m²). It is solar radiation reaching the Earth's surface after having been scattered from the direct solar beam by molecules or particulates in the atmosphere.
+*  poa_ground_diffuse - Reflected irradiance on inclined plane (W/m²). It is the reflected radiation from the ground surface or nearby obstacles (W/m²).
+*  solar_elevation - Sun height/elevation (degrees) - The same as elevation but taken from another reference point.
+*  temp_air - Air temperature at 2 m (Celsius degrees)
+*  wind_speed - Wind speed at 10 m (m/s)
+*  Int - Solar radiation reconstructed 
+*  date - Date of the measurement daily basis
+*  location - The orientation of the modules in relation to the Sun.
+
+🔹 Technologies
+
+Python
+Pandas
+Matplotlib
+Google Colab
+Requests (API)
+NumPy
+PVLib
+PVGis
+
+
+🔸 Project Description The data used was provided by WBS-Coding School.
+
+🔸 Main goals of the project:
+
+Build different recommender-systems.
+Deploy said recommender-systems on a web-app using Streamlit.
